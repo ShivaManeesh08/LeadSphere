@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user": "Rohit Kapoor",
+    "action": "Closed deal with Rohit Agarwal — Kia Carnival booked",
+    "time": "2026-02-21T11:00:00Z",
+    "type": "closed"
+  },
+  {
+    "id": 2,
+    "user": "Priya Mehta",
+    "action": "Closed deal with Abhishek Tyagi — XUV700 AX7L confirmed",
+    "time": "2026-02-18T15:00:00Z",
+    "type": "closed"
+  },
+  {
+    "id": 3,
+    "user": "Priya Mehta",
+    "action": "Qualified Kavitha Subramaniam for Creta Electric",
+    "time": "2026-02-23T10:00:00Z",
+    "type": "status"
+  },
+  {
+    "id": 4,
+    "user": "Rohit Kapoor",
+    "action": "Qualified Nikhil Bhat for Hyundai Tucson",
+    "time": "2026-02-22T13:00:00Z",
+    "type": "status"
+  },
+  {
+    "id": 5,
+    "user": "Priya Mehta",
+    "action": "Called Meera Joshi — weekend test drive confirmed",
+    "time": "2026-02-23T07:00:00Z",
+    "type": "call"
+  },
+  {
+    "id": 6,
+    "user": "Rohit Kapoor",
+    "action": "Called Suresh Kumar — awaiting salary credit",
+    "time": "2026-02-21T16:00:00Z",
+    "type": "call"
+  },
+  {
+    "id": 7,
+    "user": "Priya Mehta",
+    "action": "Follow-up note added on Anjali Desai — EMI options sent",
+    "time": "2026-02-23T14:00:00Z",
+    "type": "note"
+  },
+  {
+    "id": 8,
+    "user": "Rohit Kapoor",
+    "action": "New lead Sneha Gupta received from Facebook campaign",
+    "time": "2026-02-23T06:00:00Z",
+    "type": "created"
+  },
+  {
+    "id": 9,
+    "user": "Priya Mehta",
+    "action": "New lead Geeta Sharma received from Facebook Harrier ad",
+    "time": "2026-02-23T13:45:00Z",
+    "type": "created"
+  },
+  {
+    "id": 10,
+    "user": "Rohit Kapoor",
+    "action": "Contacted Pooja Iyer — no urgency, monitoring stage",
+    "time": "2026-02-21T09:00:00Z",
+    "type": "call"
+  }
+]
