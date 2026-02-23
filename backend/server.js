@@ -31,7 +31,7 @@ if (isProd) {
     const distPath = path.join(__dirname, '..', 'frontend', 'dist');
     app.use(express.static(distPath));
     // All non-API routes → React's index.html (SPA fallback)
-    app.get('*', (req, res) => {
+    app.get('/{*splat}', (req, res) => {
         res.sendFile(path.join(distPath, 'index.html'));
     });
 }
