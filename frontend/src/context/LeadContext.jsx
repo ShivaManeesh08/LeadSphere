@@ -2,7 +2,10 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 
 const LeadContext = createContext();
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// In production: served from same origin, use relative path
+// In local dev: fallback to localhost:5000
+const API_BASE = import.meta.env.VITE_API_URL
+    || (window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : '/api');
 
 export const LeadProvider = ({ children }) => {
     const [leads, setLeads] = useState([]);
