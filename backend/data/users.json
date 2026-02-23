@@ -1,0 +1,23 @@
+[
+    {
+        "id": "U1",
+        "name": "Priya Mehta",
+        "role": "Sales Executive",
+        "email": "priya@hsrmotors.com",
+        "avatar": "PM"
+    },
+    {
+        "id": "U2",
+        "name": "Rohit Kapoor",
+        "role": "Sales Executive",
+        "email": "rohit@hsrmotors.com",
+        "avatar": "RK"
+    },
+    {
+        "id": "U3",
+        "name": "Amit Shah",
+        "role": "Business Manager",
+        "email": "amit@hsrmotors.com",
+        "avatar": "AS"
+    }
+]
