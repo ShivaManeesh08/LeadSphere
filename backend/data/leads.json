@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "phone": "+91 98765 43210",
+    "email": "rahul.sharma@gmail.com",
+    "source": "Google",
+    "status": "New",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": null,
+    "priority": "Hot",
+    "qualityScore": 92,
+    "model": "Hyundai Creta 2024",
+    "budget": "₹14L – ₹17L",
+    "preferredTime": "Evening (5–8 PM)",
+    "createdAt": "2026-02-23T08:30:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T08:30:00Z",
+        "title": "Lead Created",
+        "desc": "Captured via Google Ads campaign",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aditi Verma",
+    "phone": "+91 91234 56789",
+    "email": "aditi.verma@outlook.com",
+    "source": "Facebook",
+    "status": "Contacted",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-22T10:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 74,
+    "model": "Kia Seltos HTX",
+    "budget": "₹12L – ₹15L",
+    "preferredTime": "Morning (10 AM–1 PM)",
+    "createdAt": "2026-02-22T10:15:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-22T10:15:00Z",
+        "title": "Lead Created",
+        "desc": "Captured via Facebook Marketing campaign",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-22T11:00:00Z",
+        "title": "First Call Made",
+        "desc": "Spoke for 4 minutes, interested in test drive",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Karan Singh",
+    "phone": "+91 99887 76655",
+    "email": "karan.singh@yahoo.in",
+    "source": "Website",
+    "status": "Qualified",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-20T14:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 88,
+    "model": "Mahindra XUV700 AX7",
+    "budget": "₹20L – ₹24L",
+    "preferredTime": "Afternoon (2–5 PM)",
+    "createdAt": "2026-02-18T14:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-18T14:00:00Z",
+        "title": "Lead Created",
+        "desc": "Website inquiry form submission",
+        "user": "System"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-20T14:00:00Z",
+        "title": "Status Updated",
+        "desc": "Contacted → Qualified",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Anjali Desai",
+    "phone": "+91 98711 22334",
+    "email": "anjali.desai@gmail.com",
+    "source": "Event",
+    "status": "Follow-up",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-23T14:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 65,
+    "model": "Tata Nexon EV Max",
+    "budget": "₹17L – ₹20L",
+    "preferredTime": "Evening (6–9 PM)",
+    "createdAt": "2026-02-19T09:45:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-19T09:45:00Z",
+        "title": "Lead Created",
+        "desc": "Auto Expo Mumbai event walk-in",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-23T14:00:00Z",
+        "title": "Follow-up Call",
+        "desc": "Requested brochure and EMI options",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vikram Patel",
+    "phone": "+91 90001 10002",
+    "email": "vikram.patel@hotmail.com",
+    "source": "Google",
+    "status": "Not Interested",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-16T11:30:00Z",
+    "priority": "Cold",
+    "qualityScore": 22,
+    "model": "Hyundai i20 Asta",
+    "budget": "₹8L – ₹11L",
+    "preferredTime": "Morning (9 AM–12 PM)",
+    "createdAt": "2026-02-14T11:30:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-14T11:30:00Z",
+        "title": "Lead Created",
+        "desc": "Google Ads click → landing page form",
+        "user": "System"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-16T11:30:00Z",
+        "title": "Marked Not Interested",
+        "desc": "Customer purchased a different brand",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sneha Gupta",
+    "phone": "+91 88990 11223",
+    "email": "sneha.gupta@gmail.com",
+    "source": "Facebook",
+    "status": "New",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": null,
+    "priority": "Hot",
+    "qualityScore": 85,
+    "model": "Kia Seltos HTX+",
+    "budget": "₹16L – ₹18L",
+    "preferredTime": "Evening (5–8 PM)",
+    "createdAt": "2026-02-23T06:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T06:00:00Z",
+        "title": "Lead Created",
+        "desc": "Facebook lead form — direct",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Arjun Nair",
+    "phone": "+91 97775 44332",
+    "email": "arjun.nair@gmail.com",
+    "source": "Website",
+    "status": "Qualified",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-20T12:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 71,
+    "model": "Mahindra Scorpio-N Z8L",
+    "budget": "₹22L – ₹26L",
+    "preferredTime": "Afternoon (1–4 PM)",
+    "createdAt": "2026-02-17T13:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-17T13:00:00Z",
+        "title": "Lead Created",
+        "desc": "HSR Motors official website inquiry",
+        "user": "System"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-20T12:00:00Z",
+        "title": "Status Updated",
+        "desc": "New → Qualified",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pooja Iyer",
+    "phone": "+91 99123 45678",
+    "email": "pooja.iyer@yahoo.in",
+    "source": "Twitter",
+    "status": "Contacted",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-21T09:00:00Z",
+    "priority": "Cold",
+    "qualityScore": 38,
+    "model": "Tata Nexon EV Prime",
+    "budget": "₹15L – ₹17L",
+    "preferredTime": "Morning (10 AM–12 PM)",
+    "createdAt": "2026-02-20T16:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-20T16:00:00Z",
+        "title": "Lead Created",
+        "desc": "Twitter DM campaign response",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-21T09:00:00Z",
+        "title": "Introductory Call",
+        "desc": "Browsing options, no urgency noted",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Deepak Reddy",
+    "phone": "+91 98001 33445",
+    "email": "deepak.reddy@gmail.com",
+    "source": "Event",
+    "status": "New",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": null,
+    "priority": "Hot",
+    "qualityScore": 78,
+    "model": "Hyundai Venue S+",
+    "budget": "₹9L – ₹12L",
+    "preferredTime": "Afternoon (3–5 PM)",
+    "createdAt": "2026-02-23T09:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T09:00:00Z",
+        "title": "Lead Created",
+        "desc": "Walk-in at HSR Motors showroom event",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Meera Joshi",
+    "phone": "+91 95551 22889",
+    "email": "meera.joshi@outlook.com",
+    "source": "Google",
+    "status": "Contacted",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-23T07:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 63,
+    "model": "Kia Sonet HTX",
+    "budget": "₹9L – ₹12L",
+    "preferredTime": "Morning (9–11 AM)",
+    "createdAt": "2026-02-22T15:30:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-22T15:30:00Z",
+        "title": "Lead Created",
+        "desc": "Google Search Ad — Kia models",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-23T07:00:00Z",
+        "title": "Morning Call",
+        "desc": "Confirmed interest, prefers weekend test drive",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Suresh Kumar",
+    "phone": "+91 98443 22110",
+    "email": "suresh.kumar@gmail.com",
+    "source": "Google",
+    "status": "Follow-up",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-21T16:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 59,
+    "model": "Tata Punch Accomplished+",
+    "budget": "₹8L – ₹10L",
+    "preferredTime": "Morning (10 AM–12 PM)",
+    "createdAt": "2026-02-15T08:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-15T08:00:00Z",
+        "title": "Lead Created",
+        "desc": "Google Ads — Tata hatchback keyword",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-21T16:00:00Z",
+        "title": "Follow-up Call",
+        "desc": "Customer waiting for salary credit, will confirm next week",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Lakshmi Menon",
+    "phone": "+91 97001 55667",
+    "email": "lakshmi.menon@yahoo.in",
+    "source": "Website",
+    "status": "New",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": null,
+    "priority": "Warm",
+    "qualityScore": 70,
+    "model": "Hyundai i20 N Line",
+    "budget": "₹12L – ₹14L",
+    "preferredTime": "Evening (4–7 PM)",
+    "createdAt": "2026-02-23T11:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T11:00:00Z",
+        "title": "Lead Created",
+        "desc": "Website test drive booking form",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Nikhil Bhat",
+    "phone": "+91 96543 21098",
+    "email": "nikhil.bhat@gmail.com",
+    "source": "Google",
+    "status": "Qualified",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-22T13:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 90,
+    "model": "Hyundai Tucson 2024",
+    "budget": "₹27L – ₹32L",
+    "preferredTime": "Evening (5–8 PM)",
+    "createdAt": "2026-02-20T10:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-20T10:00:00Z",
+        "title": "Lead Created",
+        "desc": "Google Ads premium SUV campaign",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-21T09:00:00Z",
+        "title": "Initial Call",
+        "desc": "Highly interested, budget confirmed",
+        "user": "Rohit Kapoor"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-22T13:00:00Z",
+        "title": "Status Updated",
+        "desc": "Contacted → Qualified",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Preethi Ramanathan",
+    "phone": "+91 88776 54321",
+    "email": "preethi.r@hotmail.com",
+    "source": "Facebook",
+    "status": "Follow-up",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-22T16:30:00Z",
+    "priority": "Warm",
+    "qualityScore": 68,
+    "model": "Maruti Suzuki Grand Vitara",
+    "budget": "₹13L – ₹16L",
+    "preferredTime": "Afternoon (2–5 PM)",
+    "createdAt": "2026-02-19T14:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-19T14:00:00Z",
+        "title": "Lead Created",
+        "desc": "Facebook carousel ad — SUV collection",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-22T16:30:00Z",
+        "title": "Follow-up Call",
+        "desc": "Comparing with Brezza, send comparison sheet",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Rohit Agarwal",
+    "phone": "+91 90099 88776",
+    "email": "rohit.agarwal@gmail.com",
+    "source": "Event",
+    "status": "Closed",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-21T11:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 97,
+    "model": "Kia Carnival Limousine",
+    "budget": "₹35L – ₹40L",
+    "preferredTime": "Morning (10 AM–12 PM)",
+    "createdAt": "2026-02-12T09:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-12T09:00:00Z",
+        "title": "Lead Created",
+        "desc": "Auto Expo VIP lounge walk-in",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-14T10:00:00Z",
+        "title": "First Call",
+        "desc": "Very interested, requested premium slot",
+        "user": "Rohit Kapoor"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-21T11:00:00Z",
+        "title": "DEAL CLOSED",
+        "desc": "Booking confirmation received. Payment settled.",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Divya Krishnamurthy",
+    "phone": "+91 91122 33445",
+    "email": "divya.k@outlook.com",
+    "source": "Website",
+    "status": "New",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": null,
+    "priority": "Warm",
+    "qualityScore": 66,
+    "model": "Hyundai Exter SX",
+    "budget": "₹8L – ₹11L",
+    "preferredTime": "Evening (6–8 PM)",
+    "createdAt": "2026-02-23T12:30:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T12:30:00Z",
+        "title": "Lead Created",
+        "desc": "Website: 'Compare Micro SUVs' query",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sameer Hossain",
+    "phone": "+91 99654 32100",
+    "email": "sameer.h@gmail.com",
+    "source": "Twitter",
+    "status": "Contacted",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-22T11:30:00Z",
+    "priority": "Cold",
+    "qualityScore": 41,
+    "model": "Tata Altroz XZ+",
+    "budget": "₹7L – ₹9L",
+    "preferredTime": "Morning (9–11 AM)",
+    "createdAt": "2026-02-21T08:45:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-21T08:45:00Z",
+        "title": "Lead Created",
+        "desc": "Twitter giveaway contest entry",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-22T11:30:00Z",
+        "title": "Introductory Call",
+        "desc": "Not in immediate buying phase, 'just exploring'",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Kavitha Subramaniam",
+    "phone": "+91 97890 12345",
+    "email": "kavitha.s@yahoo.in",
+    "source": "Google",
+    "status": "Qualified",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-23T10:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 83,
+    "model": "Hyundai Creta Electric",
+    "budget": "₹18L – ₹22L",
+    "preferredTime": "Afternoon (1–4 PM)",
+    "createdAt": "2026-02-21T11:30:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-21T11:30:00Z",
+        "title": "Lead Created",
+        "desc": "Google: 'best electric SUV under 20 lakh'",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-22T10:00:00Z",
+        "title": "Product Briefing",
+        "desc": "Detailed walkthrough of Creta EV range",
+        "user": "Priya Mehta"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-23T10:00:00Z",
+        "title": "Status Updated",
+        "desc": "Contacted → Qualified",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rajesh Pillai",
+    "phone": "+91 95010 23456",
+    "email": "rajesh.pillai@gmail.com",
+    "source": "Event",
+    "status": "Follow-up",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-20T15:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 56,
+    "model": "Kia Carens Prestige+",
+    "budget": "₹16L – ₹19L",
+    "preferredTime": "Evening (5–7 PM)",
+    "createdAt": "2026-02-16T13:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-16T13:00:00Z",
+        "title": "Lead Created",
+        "desc": "Family car expo, showed interest in 7-seater",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-20T15:00:00Z",
+        "title": "Follow-up Call",
+        "desc": "Needs spouse approval before proceeding",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Geeta Sharma",
+    "phone": "+91 93000 45678",
+    "email": "geeta.sharma@gmail.com",
+    "source": "Facebook",
+    "status": "New",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": null,
+    "priority": "Hot",
+    "qualityScore": 79,
+    "model": "Tata Harrier XZA+",
+    "budget": "₹21L – ₹25L",
+    "preferredTime": "Morning (9 AM–12 PM)",
+    "createdAt": "2026-02-23T13:45:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T13:45:00Z",
+        "title": "Lead Created",
+        "desc": "Facebook video ad — Harrier dark edition",
+        "user": "System"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Abhishek Tyagi",
+    "phone": "+91 87654 32109",
+    "email": "abhishek.tyagi@outlook.com",
+    "source": "Google",
+    "status": "Closed",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-18T15:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 95,
+    "model": "Mahindra XUV700 Diesel AX7 L",
+    "budget": "₹24L – ₹28L",
+    "preferredTime": "Afternoon (3–6 PM)",
+    "createdAt": "2026-02-10T09:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-10T09:00:00Z",
+        "title": "Lead Created",
+        "desc": "Google: 'XUV700 AX7 price Hyderabad'",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-12T14:00:00Z",
+        "title": "Test Drive Booked",
+        "desc": "5-seater diesel variant confirmed",
+        "user": "Priya Mehta"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-18T15:00:00Z",
+        "title": "DEAL CLOSED",
+        "desc": "Full payment received. Delivery scheduled for Mar 5.",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Sunita Bhargava",
+    "phone": "+91 99334 55678",
+    "email": "sunita.b@gmail.com",
+    "source": "Website",
+    "status": "Contacted",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-23T08:00:00Z",
+    "priority": "Warm",
+    "qualityScore": 60,
+    "model": "Maruti Suzuki Fronx Alpha+",
+    "budget": "₹10L – ₹13L",
+    "preferredTime": "Morning (8–10 AM)",
+    "createdAt": "2026-02-22T17:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-22T17:00:00Z",
+        "title": "Lead Created",
+        "desc": "Website: 'Fronx petrol turbo features'",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-23T08:00:00Z",
+        "title": "Morning Call",
+        "desc": "Interested in both Fronx and Brezza, will visit on weekend",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Manish Chauhan",
+    "phone": "+91 94001 23456",
+    "email": "manish.c@hotmail.com",
+    "source": "Event",
+    "status": "Not Interested",
+    "assignedTo": "Rohit Kapoor",
+    "lastContacted": "2026-02-15T12:00:00Z",
+    "priority": "Cold",
+    "qualityScore": 18,
+    "model": "Hyundai Verna SX(O)",
+    "budget": "₹14L – ₹16L",
+    "preferredTime": "Afternoon (12–3 PM)",
+    "createdAt": "2026-02-11T10:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-11T10:00:00Z",
+        "title": "Lead Created",
+        "desc": "Auto show visitor coupon form",
+        "user": "System"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-15T12:00:00Z",
+        "title": "Marked Not Interested",
+        "desc": "Customer opted for Honda City instead",
+        "user": "Rohit Kapoor"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Tanisha Reddy",
+    "phone": "+91 91111 22233",
+    "email": "tanisha.r@gmail.com",
+    "source": "Facebook",
+    "status": "Qualified",
+    "assignedTo": "Priya Mehta",
+    "lastContacted": "2026-02-22T14:00:00Z",
+    "priority": "Hot",
+    "qualityScore": 86,
+    "model": "Kia EV6 GT-Line",
+    "budget": "₹60L – ₹70L",
+    "preferredTime": "Evening (5–7 PM)",
+    "createdAt": "2026-02-19T16:00:00Z",
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-19T16:00:00Z",
+        "title": "Lead Created",
+        "desc": "Facebook: Premium EV retargeting ad",
+        "user": "System"
+      },
+      {
+        "type": "call",
+        "time": "2026-02-21T14:00:00Z",
+        "title": "Detailed Consultation",
+        "desc": "Discussed range, charging infra, and corporate discount",
+        "user": "Priya Mehta"
+      },
+      {
+        "type": "status",
+        "time": "2026-02-22T14:00:00Z",
+        "title": "Status Updated",
+        "desc": "Contacted → Qualified",
+        "user": "Priya Mehta"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "jaya",
+    "phone": "+919676390322",
+    "email": "sunny2kohli@gmail.com",
+    "model": "Suzuki",
+    "budget": "20",
+    "source": "Website",
+    "priority": "Warm",
+    "assignedTo": "Neha Soni",
+    "qualityScore": 65,
+    "createdAt": "2026-02-23T17:53:22.815Z",
+    "status": "New",
+    "lastContacted": null,
+    "notes": [],
+    "timeline": [
+      {
+        "type": "created",
+        "time": "2026-02-23T17:53:22.815Z",
+        "title": "Lead Created",
+        "desc": "Captured via Website channel",
+        "user": "System"
+      }
+    ]
+  }
+]
