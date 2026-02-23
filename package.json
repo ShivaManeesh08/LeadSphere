@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "LeadSphere CRM — HSR Motors | Full-stack monorepo",
     "scripts": {
-        "build": "cd frontend && npm install && npm run build",
+        "build": "cd frontend && npm install --include=dev && npm run build",
         "install-backend": "cd backend && npm install",
         "start": "node backend/server.js"
     },
