@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --color-jeton-orange: #FF5C00;
+  --color-jeton-black: #080808;
+  --color-jeton-dark: #121212;
+  --color-jeton-gray: #1E1E1E;
+  --color-jeton-light: #F5F5F5;
+
+  --font-inter: "Inter", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+}
+
+:root {
+  background-color: var(--color-jeton-black);
+  color: var(--color-jeton-light);
+  font-family: var(--font-inter);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(30, 30, 30, 0.4);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-orange {
+  background: rgba(255, 92, 0, 0.1);
+  border: 1px solid rgba(255, 92, 0, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-jeton-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-jeton-gray);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-jeton-orange);
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-right {
+  animation: slide-right 0.3s ease-out forwards;
+}
+
+/* Button & Elements */
+.btn-primary {
+  background: var(--color-jeton-orange);
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 92, 0, 0.3);
+}
+
+.card-jeton {
+  background: var(--color-jeton-dark);
+  border: 1px solid var(--color-jeton-gray);
+  border-radius: 20px;
+  transition: border 0.2s;
+}
+
+.card-jeton:hover {
+  border-color: rgba(255, 92, 0, 0.4);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #FF5C00, #FFB800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
